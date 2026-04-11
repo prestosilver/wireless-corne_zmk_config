@@ -64,7 +64,7 @@
                 &kp ESC   &kp Q &kp W &kp E &kp R &kp T     &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
                 &kp TAB   &kp A &kp S &kp D &kp F &kp G     &kp H &kp J  &kp K     &kp L   &brace   &kp DEL 
                 &kp LSHFT &kp Z &kp X &kp C &kp V &kp B     &kp N &kp M  &dotcomma &none   &to 4    &kp RET
-                         &kp LGUI &lt 1 MINUS &kp SPACE     &kp BSPC &lt 2 FSLH &kp RCTRL
+                         &kp LGUI &lt 1 MINUS &kp SPACE     &kp BSPC &lt 2 FSLH &kp lt 5
             >;
         };
 
@@ -101,6 +101,15 @@
                 &kp LCTRL &kp Q  &kp W  &kp E   &kp R  &kp T          &none  &none &none  &none &none &none &none &none
                 &kp LSHFT &kp A  &kp S  &kp D   &kp F  &kp G          &none  &none &none  &none &none &none &none &to 0
                                          &kp LGUI &kp TAB &kp SPACE   &none &none &none
+            >;
+        };
+        
+        alt_layer {
+            bindings = <
+                &none       &none        &kp UP       &none        &none  &none     &none  &none  &none &none &none &none
+                &none       &kp LEFT     &kp DOWN     &kp RIGHT    &none  &none     &none  &none  &none &none &none &none
+                &none       &none        &none        &none        &none  &none     &none  &none  &none &none &none &none
+                                                      &trans       &trans &trans    &trans &trans &trans 
             >;
         };
     };
