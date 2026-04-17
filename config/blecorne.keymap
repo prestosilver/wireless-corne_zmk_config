@@ -63,7 +63,7 @@
             bindings = <
                 &kp ESC   &kp Q &kp W &kp E &kp R &kp T     &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
                 &kp TAB   &kp A &kp S &kp D &kp F &kp G     &kp H &kp J  &kp K     &kp L   &brace   &kp DEL 
-                &kp LSHFT &kp Z &kp X &kp C &kp V &kp B     &kp N &kp M  &dotcomma &none   &to 4    &kp RET
+                &kp LSHFT &kp Z &kp X &kp C &kp V &kp B     &kp N &kp M  &dotcomma &none   &none    &kp RET
                          &kp LGUI &lt 1 MINUS &kp SPACE     &kp RCTRL &lt 2 FSLH &mo 5
             >;
         };
@@ -108,7 +108,7 @@
             bindings = <
                 &none       &none        &kp UP       &none        &none  &none     &none  &none  &none &none &none &none
                 &none       &kp LEFT     &kp DOWN     &kp RIGHT    &none  &none     &none  &none  &none &none &none &none
-                &none       &none        &none        &none        &none  &none     &none  &none  &none &none &none &none
+                &none       &none        &none        &none        &none  &none     &none  &none  &none &none &none &to 4
                                                       &trans       &trans &trans    &trans &trans &trans 
             >;
         };
