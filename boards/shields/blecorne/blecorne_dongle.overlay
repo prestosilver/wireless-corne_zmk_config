@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "../../boardsource/blecorne/blecorne.dtsi"
 
 / {
     kscan0: kscan {
