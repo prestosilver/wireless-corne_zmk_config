@@ -3,7 +3,7 @@
 * SPDX-License-Identifier: MIT
 */
 
-#include "blecorne.dtsi"
+#include "../boards/blecorne/blecorne.dtsi"
 
 /{
     kscan0: kscan {

@@ -2,16 +2,17 @@ file_format: "1"
 id: blecorne
 name: BLE Corne
 url: https://boardsource.xyz
-type: board
+type: shield
 arch: arm
 features:
   - keys
   - display
-  - studio
 outputs:
   - usb
   - ble
 revisions:
   - 1.0.0
 siblings:
-  - blecorne
+  - blecorne_left
+  - blecorne_right
+  - blecorne_dongle
