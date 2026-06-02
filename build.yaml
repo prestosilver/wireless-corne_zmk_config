@@ -3,11 +3,11 @@
 ---
 include:
   - board: blecorne
-    shield: nice_view blecorne_right
+    shield: nice_view blecorne_right settings_reset
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: blecorne
-    shield: nice_view blecorne_left
+    shield: nice_view blecorne_left settings_reset
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: blecorne
-    shield: blecorne_dongle
+    shield: blecorne_dongle settings_reset
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_DISPLAY=n
