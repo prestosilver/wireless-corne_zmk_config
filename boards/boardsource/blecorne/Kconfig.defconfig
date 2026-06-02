@@ -16,6 +16,8 @@ config ZMK_DISPLAY_BLANK_ON_IDLE
 
 endif # ZMK_DISPLAY
 
+if USB
+
 config USB_NRFX
     default y
 
