@@ -2,13 +2,13 @@
 # Additionally, you should enable the display feature in 'config/blecorne.conf'.
 ---
 include:
-  - board: blecorne_left
-    shield: nice_view
+  - board: blecorne
+    shield: nice_view blecorne_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: blecorne_right
-    shield: nice_view
+  - board: blecorne
+    shield: nice_view blecorne_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: blecorne_left
+  - board: blecorne
     snippet: studio-rpc-usb-uart
     shield: blecorne_dongle
 
