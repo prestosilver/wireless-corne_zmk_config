@@ -9,7 +9,6 @@ include:
     shield: nice_view blecorne_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: blecorne
-    snippet: studio-rpc-usb-uart
     shield: blecorne_dongle
 
   # Uncomment the following to build a "settings reset" firmware

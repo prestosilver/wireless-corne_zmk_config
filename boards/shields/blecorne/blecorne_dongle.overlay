@@ -1,12 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    chosen {
-        zmk,kscan = %mock_kscan;
-        zmk,physical-layout = &physical_layout0;
-    };
-
-    mock_kscan: mock_kscan_0 {
+    kscan0: kscan {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
