@@ -9,6 +9,9 @@ config BT_CTLR
 config ZMK_KEYBOARD_NAME
     default "BLE Corne"
 
+config ZMK_DISPLAY
+    default n
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
