@@ -1,0 +1,16 @@
+file_format: "1"
+id: blecorne
+name: BLE Corne
+url: https://boardsource.xyz
+type: board
+arch: arm
+features:
+  - keys
+  - display
+outputs:
+  - usb
+  - ble
+revisions:
+  - 1.0.0
+siblings:
+  - blecorne
