@@ -54,6 +54,13 @@
             tapping-term-ms = <200>;
             bindings = <&kp FSLH>, <&kp SCLN>;
         };
+
+        space_control: tap_dance_4 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp SPACE>, <&kp RCTRL>;
+        };
     };
 
     keymap {
@@ -64,7 +71,7 @@
                 &kp ESC   &kp Q &kp W &kp E &kp R &kp T     &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
                 &kp TAB   &kp A &kp S &kp D &kp F &kp G     &kp H &kp J  &kp K     &kp L   &brace   &kp DEL 
                 &kp LSHFT &kp Z &kp X &kp C &kp V &kp B     &kp N &kp M  &dotcomma &none   &none    &kp RET
-                   &kp LGUI &lt 1 MINUS &mt RCTRL SPACE     &mt RCTRL SPACE &lt 2 FSLH &mo 5
+                    &kp LGUI &lt 1 MINUS &space_control     &space_control &lt 2 FSLH &mo 5
             >;
         };
 
