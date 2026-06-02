@@ -14,5 +14,4 @@ outputs:
 revisions:
   - 1.0.0
 siblings:
-  - blecorne_left
-  - blecorne_right
+  - blecorne

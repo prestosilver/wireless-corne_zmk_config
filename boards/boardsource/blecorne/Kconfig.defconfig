@@ -3,17 +3,7 @@
 # SPDX-License-Identifier: MIT
 #
 
-if BOARD_BLECORNE_LEFT
-
-config ZMK_KEYBOARD_NAME
-    default "BLE Corne"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif # BOARD_BLECORNE_LEFT
-
-if BOARD_BLECORNE_LEFT || BOARD_BLECORNE_RIGHT
+if BOARD_BLECORNE
 
 config BOARD
     default "blecorne"
