@@ -4,6 +4,7 @@
 */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "blecorne.dsti"
 
 /{
     kscan0: kscan {
