@@ -10,4 +10,4 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: blecorne
     shield: blecorne_dongle
-    cmake-args: -DCONFIG_ZMK_DISPLAY=n
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONFIG_ZMK_DISPLAY=n
