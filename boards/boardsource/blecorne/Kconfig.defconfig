@@ -1,0 +1,33 @@
+if BOARD_BLECORNE
+
+config ZMK_KEYBOARD_NAME
+    default "BLE Corne"
+
+config ZMK_SPLIT
+    default y
+
+if ZMK_DISPLAY
+
+config SPI
+    default y
+
+config ZMK_DISPLAY_BLANK_ON_IDLE
+    default n
+
+endif # ZMK_DISPLAY
+
+config USB_NRFX
+    default y
+
+config USB_DEVICE_STACK
+    default y
+
+endif # USB
+
+config BT_MAX_CONN
+    default 7
+
+config BT_MAX_PAIRED
+    default 7
+
+endif

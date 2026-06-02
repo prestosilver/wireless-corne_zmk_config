@@ -22,29 +22,3 @@ config BT_MAX_PAIRED
     default 7
 
 endif
-
-if SHIELD_BLECORNE_DONGLE || SHIELD_BLECORNE_LEFT || SHIELD_BLECORNE_RIGHT
-
-config ZMK_SPLIT
-    default y
-
-if ZMK_DISPLAY
-
-config SPI
-    default y
-
-config ZMK_DISPLAY_BLANK_ON_IDLE
-    default n
-
-endif # ZMK_DISPLAY
-
-config USB_NRFX
-    default y
-
-config USB_DEVICE_STACK
-    default y
-
-endif # USB
-
-
-endif
